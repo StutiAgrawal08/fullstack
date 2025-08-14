@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registrationform</title>
+</head>
+<body>
+    <h1>Fill out this registration form</h1>
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required><br><br><hr>  
+        <label for="age">Age:</label>
+        <input type="text" name="age" id="age" required><br><br><hr>
+        <h3>Gender:</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><hr>
+        <h3>Select country :</h3>
+        <select name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Russia">Russia</option>
+            <option value="Italy">Italy</option>
+            <option value="South Korea">South Korea</option>
+            <option value="North korea">North Korea</option>
+            <option value="Australia"> Australia</option>
+        </select><hr>
+        <h3>Skills</h3>
+        <input type="checkbox" id="java" name="skills">
+        <label for="java">Java</label>
+        <input type="checkbox" id="python" name="skills">
+        <label for="python">Python</label>
+        <input type="checkbox" id="C" name="skills">
+        <label for="c">C</label>
+        <input type="checkbox" id="c++" name="skills">
+        <label for="c++">C++</label>
+        <input type="checkbox" id="html" name="skills">
+        <label for="html">Html</label>
+        <input type="checkbox" id="Css" name="skills">
+        <label for="css">CSS</label>
+        <hr>
+        <h3>Upload your resume</h3>
+        <input type="file" name="resume" id="resume" accept=".pdf">
+    </form>    
+</body>
+</html>
