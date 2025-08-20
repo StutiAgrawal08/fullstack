@@ -1,0 +1,15 @@
+.nav_bar{
+    background-color: rgb(155, 224, 137);
+}
+.nav_bar:hover{
+    
+      background-color: rgb(190, 115, 207);
+}
+
+
+a:hover{
+    background-color: rgb(186, 82, 155);
+}
+a:visited{
+    color:rgb(76, 83, 6);
+}
