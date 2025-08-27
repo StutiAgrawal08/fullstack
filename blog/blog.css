@@ -1,0 +1,27 @@
+h1,h2{
+    text-align: left;
+    color:rgb(27, 85, 132);
+}
+body{
+    background-image: url("/backgroundimage.jpg");
+}
+header{
+    background-color: bisque;
+}
+footer{
+    text-align: center;
+    background-color: rgb(67, 134, 86);
+    padding: 10px;;
+}
+nav a{
+    text-decoration: none;
+    color:blue;
+    margin:0 10px;
+    font-weight: bold;
+}
+a:hover{
+    background-color: rgb(185, 135, 231);
+}
+a:visited{
+    color: brown;
+}
