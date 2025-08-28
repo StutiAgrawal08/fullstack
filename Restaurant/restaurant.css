@@ -1,0 +1,63 @@
+header{
+    background-image:url("/restaurant-headerImg.jpg") ; 
+    background-size: cover;                 
+    background-position: center;            
+    background-repeat: no-repeat;           
+    width: 100%;                            
+    height: 270px;                       
+    display: flex;                          
+    font-size: 2rem; 
+    margin-top:4% ;
+}
+body{
+    background-image: url("/orangeBackgroungimg.jpg");
+}
+h1{
+    text-align:center;
+    font-size:4rem;
+    color: rgb(5, 5, 5);
+    background-color: rgb(241, 126, 73);
+    text-shadow: 4px 4px 5px red;
+}
+h1:hover{
+    box-shadow: 10px 10px 10px rgba(183, 31, 31, 0.7);
+}
+.menu-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
+    gap:2rem;
+    padding:2rem;
+    text-align:center;
+    background-image: url("/orangeBackgroungimg.jpg");
+}
+.dish img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    border:3px solid #502302;
+    transition:transform 0.7s;
+}
+.dish img:hover{
+    transform:scale(1.15);
+}
+.dish h3 {
+    margin-top: 1rem;
+    font-size: 20px;
+    color: #333;
+}
+.dish h3:hover{
+    color:#541a6d;
+}
+.dish p { 
+    font-size: 0.95rem;
+    color:rgb(26, 101, 147);
+    margin: 0.7rem 0;
+    font-style: italic;
+}
+.price {
+  display: block;
+  font-weight: bold;
+  color: #8b3f08;
+  font-size: 1.1rem;
+}
