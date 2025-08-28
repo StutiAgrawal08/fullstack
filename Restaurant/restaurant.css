@@ -1,6 +1,6 @@
 header{
     background-image:url("/restaurant-headerImg.jpg") ; 
-    background-size: cover;                 
+    background-size: cover;                
     background-position: center;            
     background-repeat: no-repeat;           
     width: 100%;                            
@@ -11,12 +11,13 @@ header{
 }
 body{
     background-image: url("/orangeBackgroungimg.jpg");
+    background-size: cover;
 }
 h1{
     text-align:center;
     font-size:4rem;
     color: rgb(5, 5, 5);
-    background-color: rgb(241, 126, 73);
+    background-color: rgb(244, 121, 64);
     text-shadow: 4px 4px 5px red;
 }
 h1:hover{
@@ -29,6 +30,7 @@ h1:hover{
     padding:2rem;
     text-align:center;
     background-image: url("/orangeBackgroungimg.jpg");
+    background-size: cover;
 }
 .dish img{
     width:150px;
